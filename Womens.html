@@ -1,0 +1,279 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z5 Shopping</title>
+
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!--my css-->
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="comunity.css">
+
+    <!--font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo-content">
+                <img src="image/Logo.jpg" alt="">
+                <div class="title">
+                    <h2 class="head1">Z5 SHOPPING</h2>
+                    <h2 class="head2">MART</h2>
+                </div>
+
+            </div>
+            <div class="nav">
+
+                <div class="navbar-links">
+                    <p><a href="./Men.html">MEN</a></p>
+                    <p><a href="./Womens.html">WOMEN</a></p>
+                    <p><a href="./Kids.html">KIDS</a></p>
+                </div>
+                <div class="search">
+                    <i class="fa fa-search"></i>
+                    <input class="searchbar" id="searchInput" type="text" placeholder="Search Products" onkeyup="checkup(event)">
+                </div>
+                <div class="navbar-links">
+                    <p><a href="./index.html">HOME</a></p>
+                    <p><a href=#footer>ABOUT</a></p>
+                    <p><a href="./contact.html">CONTACT</a></p>
+                </div>
+
+
+            </div>
+            <div class="toggle-nav" onclick="shownav()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!--Side navbar-->
+    <div class="side-nav">
+        <p style="text-align: right;" onclick="hidenav()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-nav-links">
+            <p class="side-nav-link"><a href="./Men.html">MEN</a></p>
+            <p class="side-nav-link"><a href="./Womens.html">WOMEN</a></p>
+            <p class="side-nav-link"><a href="./Kids.html">KIDS</a></p>
+            <p class="side-nav-link"><a href="./index.html">HOME</a></p>
+            <p class="side-nav-link"><a href=#footer>ABOUT</a></p>
+            <p class="side-nav-link"><a href="./contact.html">CONTACT</a></p>
+        </div>
+    </div>
+
+
+
+    <!--header
+    <div class="header">
+        <H1>ENJOY YOUR FASHION</H1>
+        <img class="img" src="./image/mens wear.jpg" alt="">
+
+    </div>
+-->
+
+
+
+
+
+
+    <div class="top-deals">
+
+        <h1>Women Collection</h1>
+        <div class="content">
+            <div class="products">
+                <img src="./image/women/dresses.jpeg" alt="">
+                <p>Dresses</p>
+                <h6>Min 50% Off</h6>
+                <button>Shop Now</button>
+            </div>
+            <div class="products">
+                <img src="./image/women/Tops.jpeg" alt="">
+                <p>Tops</p>
+                <h6><b>Min 80% Off</b></h6>
+                <button>Shop Now</button>
+            </div>
+            <div class="products">
+                <img src="./image/women/t shirt.jpeg" alt="">
+                <p>T-Shirts</p>
+                <h6>Min 20% Off</h6>
+                <button>Shop Now</button>
+            </div>
+            <div class="products">
+                <img src="./image/women/sweat shirt.jpeg" alt="">
+                <p>SweatShirts</p>
+                <h6>Min 50% Off</h6>
+                <button>Shop Now</button>
+            </div>
+            <div class="products">
+                <img src="./image/women/jackets.jpg" alt="">
+                <p>Jackets</p>
+                <h6>Min 50% Off</h6>
+                <button>Shop Now</button>
+            </div>
+            <div class="products">
+                <img src="./image/women/blazer&jacket.jpg" alt="">
+                <p>Blazers & Waistcoats</p>
+                <h6>Min 50% Off</h6>
+                <button>Shop Now</button>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="products">
+                <img src="./image/women/saree.jpg" alt="">
+                <p>Sarees</p>
+                <h6>Min 50% Off</h6>
+                <button>Shop Now</button>
+            </div>
+            <div class="products">
+                <img src="./image/women/dupats.jpg" alt="">
+                <p>Dupattas</p>
+                <h6><b>Min 80% Off</b></h6>
+                <button>Shop Now</button>
+            </div>
+            <div class="products">
+                <img src="./image/women/jackets.jpg" alt="">
+                <p>Jackets</p>
+                <h6>Min 20% Off</h6>
+                <button>Shop Now</button>
+            </div>
+            <div class="products">
+                <img src="./image/women/lehanga.jpeg" alt="">
+                <p>Lehanga Cholis</p>
+                <h6>Min 50% Off</h6>
+                <button>Shop Now</button>
+            </div>
+            <div class="products">
+                <img src="./image/women/Ethnic wear.jpg" alt="">
+                <p>Ethnic Wear</p>
+                <h6>Min 50% Off</h6>
+                <button>Shop Now</button>
+            </div>
+            <div class="products">
+                <img src="./image/women/salwars @chudi.jpg" alt="">
+                <p>Salwars & Churidars</p>
+                <h6>Min 50% Off</h6>
+                <button>Shop Now</button>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="products">
+                <img src="./image/women/Casual shoes.jpg" alt="">
+                <p>Casual Shoes</p>
+                <h6>Min 50% Off</h6>
+                <button>Shop Now</button>
+            </div>
+            <div class="products">
+                <img src="./image/women/flats.jpg" alt="">
+                <p>Flats</p>
+                <h6><b>Min 80% Off</b></h6>
+                <button>Shop Now</button>
+            </div>
+            <div class="products">
+                <img src="./image/women/heels.jpg" alt="">
+                <p>Heels</p>
+                <h6>Min 20% Off</h6>
+                <button>Shop Now</button>
+            </div>
+            <div class="products">
+                <img src="./image/women/sport shoe.jpg" alt="">
+                <p>Sport Shoes</p>
+                <h6>Min 50% Off</h6>
+                <button>Shop Now</button>
+            </div>
+            <div class="products">
+                <img src="./image/women/floater.jpg" alt="">
+                <p>Floaters</p>
+                <h6>Min 50% Off</h6>
+                <button>Shop Now</button>
+            </div>
+            <div class="products">
+                <img src="./image/women/boots.jpg" alt="">
+                <p>Boots</p>
+                <h6>Min 50% Off</h6>
+                <button>Shop Now</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!--News Letter-->
+    <div class="newsletter">
+        <h2>Join our Community </h2>
+        <p>Sign up with you email to get daily updates and offers</p>
+        <div>
+            <input type="text">
+        </div>
+        <div>
+            <button>Subscribe <i class="fa-solid fa-bell"></i></button>
+        </div>
+
+
+    </div>
+
+    <!--footer-->
+
+    <div class="footer" id="footer">
+        <div class="footer-Container">
+            <div class="footer-box">
+                <h2 class="h2">Z5 Shopping Mart</h2>
+                <h3 class="h3">About Us</h3>
+                <p>At Z5 Shopping Mart , we are dedicated to bringing you the best products with unparalleled
+                    service.<br> From high-quality gadgets to the latest in fashion, our goal is to meet your needs and
+                    exceed your expectations.</p>
+            </div>
+            <div>
+                <h3 class="h3">Customer Service</h3>
+                <ul class="unoder">
+                    <li><b>Contact Us:</b> Reach out to us anytime at <a href="">z5shopping@gmail.com</a> or call us at
+                        <a href="">19200-23399</a>.</li>
+                    <li><b>FAQ:</b> Find answers to your common questions in our <a href="">FAQ section</a>.</li>
+                    <li><b>Returns & Exchanges:</b> Learn about our <a href="">Returns & Exchanges policy</a>.</li>
+                    <li><b>Shipping Information:</b> Detailed information on our <a href="">Shipping process and
+                            timelines</a>.</li>
+                </ul>
+            </div>
+
+
+
+
+            <div>
+                <h3 class="h3">Follow Us</h3>
+                <div class="icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="search.js"></script>
+    <script src="content.js"></script>
+    <script src="navbar.js"></script>
+
+</body>
+
+</html>

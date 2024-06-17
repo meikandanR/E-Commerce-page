@@ -1,0 +1,165 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z5 Shopping</title>
+
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!--my css-->
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="comunity.css">
+    <link rel="stylesheet" href="contact.css">
+
+    <!--font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo-content">
+                <img src="image/Logo.jpg" alt="">
+                <div class="title">
+                    <h2 class="head1">Z5 SHOPPING</h2>
+                    <h2 class="head2">MART</h2>
+                </div>
+
+            </div>
+            <div class="nav">
+
+                <div class="navbar-links">
+                    <p><a href="./Men.html">MEN</a></p>
+                    <p><a href="./Womens.html">WOMEN</a></p>
+                    <p><a href="./Kids.html">KIDS</a></p>
+                </div>
+                
+                <div class="navbar-links">
+                    <p><a href="./index.html">HOME</a></p>
+                    <p><a href=#footer>ABOUT</a></p>
+                    <p><a href=#footer>CONTACT</a></p>
+                </div>
+
+
+            </div>
+            <div class="toggle-nav" onclick="shownav()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!--Side navbar-->
+    <div class="side-nav">
+        <p style="text-align: right;" onclick="hidenav()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-nav-links">
+            <p class="side-nav-link"><a href="./Men.html">MEN</a></p>
+            <p class="side-nav-link"><a href="./Womens.html">WOMEN</a></p>
+            <p class="side-nav-link"><a href="./Kids.html">KIDS</a></p>
+            <p class="side-nav-link"><a href="./index.html">HOME</a></p>
+            <p class="side-nav-link"><a href=#footer>ABOUT</a></p>
+            <p class="side-nav-link"><a href=#footer>CONTACT</a></p>
+        </div>
+    </div>
+    <section class="sec-container">
+        <div class="text-area-container">
+            <div class="text-area">
+                <h1>Contact Us</h1>
+                <p>Need to get in touch with us? Either fill out with form with your inquiry or find the <a href="">department email</a> you'd like to conatct below</p>
+            </div>
+            <div class="form-container">
+                <form>
+                    <h1>Enter Your Details</h1>
+                    <div class="name-part">
+                        <h4>First name*</h4>
+                        <input type="text">
+                        <h4>Last name</h4>
+                        <input type="text">
+
+                    </div>
+                    <div class="mail">
+                        <h4>Email*</h4>
+                        <input type="text">
+                    </div>
+                    <div class="text-part">
+                        <h4>What can we help you with?</h4>
+                        <input type="text">
+                    </div>
+                </form>
+            </div>
+        
+
+        </div>
+    </section>
+
+
+
+    <!--header
+    <div class="header">
+        <H1>ENJOY YOUR FASHION</H1>
+        <img class="img" src="./image/mens wear.jpg" alt="">
+
+    </div>
+-->
+
+
+    <div class="footer">
+        <div class="footer-Container">
+            <div class="footer-box" id="footer">
+                <h2 class="h2">Z5 Shopping Mart</h2>
+                <h3 class="h3">About Us</h3>
+                <p>At Z5 Shopping Mart , we are dedicated to bringing you the best products with unparalleled
+                    service.<br> From high-quality gadgets to the latest in fashion, our goal is to meet your needs and
+                    exceed your expectations.</p>
+            </div>
+            <div>
+                <h3 class="h3">Customer Service</h3>
+                <ul class="unoder">
+                    <li><b>Contact Us:</b> Reach out to us anytime at <a href="">z5shopping@gmail.com</a> or call us at
+                        <a href="">19200-23399</a>.</li>
+                    <li><b>FAQ:</b> Find answers to your common questions in our <a href="">FAQ section</a>.</li>
+                    <li><b>Returns & Exchanges:</b> Learn about our <a href="">Returns & Exchanges policy</a>.</li>
+                    <li><b>Shipping Information:</b> Detailed information on our <a href="">Shipping process and
+                            timelines</a>.</li>
+                </ul>
+            </div>
+
+
+
+
+            <div>
+                <h3 class="h3">Follow Us</h3>
+                <div class="icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="content.js"></script>
+    <script src="navbar.js"></script>
+
+</body>
+
+</html>

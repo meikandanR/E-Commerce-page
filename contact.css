@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.sec-container{
+    padding: 50px;
+    margin: 50px;
+    justify-content: center;
+}
+
+.text-area-container{
+    display: flex;
+}
+.text-area{
+    justify-content: center;
+    width: 500px;
+}
+.text-area h1{
+    padding-top: 150px;
+    padding-bottom: 15px;
+}
+.form-container{
+    width: 800px;
+    margin-top: 0px;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: skyblue;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+.form-container h1{
+    padding-left: 200px;
+    padding-bottom: 30px;
+
+    
+    
+}
+.name-part{
+    display: flex;
+    margin-bottom: 10px;
+}
+.name-part input{
+    border-radius: 10px;
+    width: 200px;
+}
+.name-part h4{
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.mail{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.mail h4{
+    margin-bottom: 10px;
+
+}
+.mail input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+.text-part{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.text-part h4{
+    
+    margin-bottom: 10px;
+}
+.text-part input{
+    width: 500px;
+    height: 80px;
+    border-radius: 10px;
+    
+}
